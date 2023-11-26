@@ -344,6 +344,7 @@ p {
   text-decoration: none;
   color: var(--white-color);
   background-color: var(--first-color);
+  margin: 10px
 }
 
 .container {
