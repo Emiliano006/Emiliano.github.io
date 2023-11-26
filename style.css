@@ -476,7 +476,7 @@ p {
 }
 
 .portfolio-card img {
-  width: 100%;
+  width: 120%;
   height: auto;
   object-fit: cover;
   transition: transform 0.3s ease;
