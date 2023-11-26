@@ -483,7 +483,7 @@ p {
 }
 
 .portfolio-card:hover img {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 .portfolio-card-info {
@@ -498,6 +498,10 @@ p {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-card:hover .portfolio-card-info {
@@ -597,8 +601,8 @@ p {
     grid-column: span 2;
   }
   .portfolio-modal img{
-    width: 80%;
-  height: 80%;
+    width: 60%;
+  height: 60%;
   }
 }
 
