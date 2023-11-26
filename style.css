@@ -470,14 +470,14 @@ p {
 
 .portfolio-card {
   position: relative;
-  width: 180%;
+  width: 150%;
   margin: 0 auto;
   display: block;
 }
 
 .portfolio-card img {
-  width: 180%;
-  height: 180%;
+  width: 150%;
+  height: 150%;
   object-fit: cover;
 }
 
