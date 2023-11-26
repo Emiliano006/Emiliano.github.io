@@ -493,8 +493,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 150%;
-  height: 150%;
+  width: 100%;
+  height: 100%;
   padding: 1rem;
   background-color: var(--first-alpha-color);
   color: var(--white-color);
