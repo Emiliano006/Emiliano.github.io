@@ -509,7 +509,7 @@ p {
 
 .portfolio-modal {
   padding: 1rem;
-  max-width: 400px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   background-color: var(--white-color);
@@ -592,8 +592,8 @@ p {
     grid-column: span 2;
   }
   .portfolio-modal img{
-    width: 50%;
-  height: 50%;
+    width: 100%;
+  height: 100%;
   }
 }
 
