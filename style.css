@@ -477,24 +477,24 @@ p {
 }
 
 .portfolio-card img {
-  width: 130%;
-  height: 130%;
+  width: 150%;
+  height: 150%;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .portfolio-card:hover img {
   transform: scale(1.1);
-  width: 130%; 
-  height: 130%;
+  width: 150%; 
+  height: 150%;
 }
 
 .portfolio-card-info {
   position: absolute;
   top: 0;
   left: 0;
-  width: 130%;
-  height: 130%;
+  width: 150%;
+  height: 150%;
   padding: 1rem;
   background-color: var(--first-alpha-color);
   color: var(--white-color);
@@ -513,8 +513,8 @@ p {
 }
 
 .portfolio-card-info > div {
-  width: 130%;
-  height: 130%;
+  width: 150%;
+  height: 150%;
   padding: 1rem;
   border: thin solid var(--white-color);
 }
