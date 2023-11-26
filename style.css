@@ -470,7 +470,7 @@ p {
 
 .portfolio-card {
   position: relative;
-  width: 120%;
+  width: 300px;
   margin: 0 auto;
   overflow: hidden;
 }
