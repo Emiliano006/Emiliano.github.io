@@ -470,8 +470,8 @@ p {
 
 .portfolio-card {
   position: relative;
-  width: 150%;
-  height: 150%;
+  width: 120%;
+  height: 120%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -485,16 +485,16 @@ p {
 
 .portfolio-card:hover img {
   transform: scale(1.1);
-  width: 150%; 
-  height: 150%;
+  width: 120%; 
+  height: 120%;
 }
 
 .portfolio-card-info {
   position: absolute;
   top: 0;
   left: 0;
-  width: 150%;
-  height: 150%;
+  width: 120%;
+  height: 120%;
   padding: 1rem;
   background-color: var(--first-alpha-color);
   color: var(--white-color);
