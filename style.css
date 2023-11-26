@@ -509,7 +509,7 @@ p {
 
 .portfolio-modal {
   padding: 1rem;
-  max-width: 600px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   background-color: var(--white-color);
