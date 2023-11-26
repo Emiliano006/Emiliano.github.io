@@ -470,23 +470,23 @@ p {
 
 .portfolio-card {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .portfolio-card img {
-  width: 110%;
-  height: 110%;
+  width: 120%;
+  height: 120%;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .portfolio-card:hover img {
   transform: scale(1.1);
-  width: 110%; 
-  height: 110%;
+  width: 120%; 
+  height: 120%;
 }
 
 .portfolio-card-info {
