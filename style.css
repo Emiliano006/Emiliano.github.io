@@ -354,7 +354,8 @@ p {
   color: var(--white-color);
   background-color: var(--first-color);
   margin: 10px;
-  left: 60px
+  left: 60px;
+  margin-left: auto;
 }
 
 .container {
