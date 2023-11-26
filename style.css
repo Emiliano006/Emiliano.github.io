@@ -476,8 +476,8 @@ p {
 }
 
 .portfolio-card img {
-  width: 130%;
-  height: 130%;
+  width: 200%;
+  height: 200%;
   object-fit: cover;
 }
 
@@ -590,6 +590,10 @@ p {
   }
   .services .section-title {
     grid-column: span 2;
+  }
+  .portfolio-modal img{
+    width: 50%;
+  height: 50%;
   }
 }
 
