@@ -485,8 +485,8 @@ p {
 
 .portfolio-card:hover img {
   transform: scale(1.1);
-  width: 180%; 
-  height: 180%;
+  width: 150%; 
+  height: 150%;
 }
 
 .portfolio-card-info {
