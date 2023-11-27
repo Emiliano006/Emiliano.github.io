@@ -657,4 +657,6 @@ p {
   text-decoration: none;
   border: none; 
   background: none;
+  cursor: pointer;
+  top: auto;
 }
