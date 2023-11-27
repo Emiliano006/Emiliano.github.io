@@ -654,7 +654,7 @@ p {
   }
 }
 .hero-image-content {
-  position: relative; /* Asegura que el posicionamiento relativo funcione para el botón */
+  position: absolute; /* Asegura que el posicionamiento relativo funcione para el botón */
   /* Agrega cualquier otro estilo que desees para el contenedor principal */
 }
 
