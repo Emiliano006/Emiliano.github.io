@@ -76,11 +76,11 @@
           </svg>
         </button>
         <nav class="menu">
-          <a href="#inicio">Inicio</a>
-          <a href="#acerca">Acerca</a>
-          <a href="#servicios">Servicios</a>
-          <a href="#portafolio">Portafolio</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#inicio" id="inicio">Inicio</a>
+          <a href="#acerca" id="acerca">Acerca</a>
+          <a href="#servicios" id="serv">Aptitudes</a>
+          <a href="#portafolio" >Portfolio</a>
+          <a href="#contacto" id="contact">Contacto</a>
         </nav>
       </section>
     </header>
@@ -135,6 +135,11 @@
                   document.getElementById('cel').innerText = 'PHONE';
                   document.getElementById('gracias').innerText = 'Thank you so much! For your comments';
                   document.getElementById('site').innerText = 'Site designed by';
+                  document.getElementById('inicio').innerText = 'Home';
+                  document.getElementById('acerca').innerText = 'About';
+                  document.getElementById('contact').innerText = 'Contact';
+                  document.getElementById('serv').innerText = 'Aptitudes';
+
                 });
     </script>
             <h2
@@ -423,13 +428,13 @@
               registrar tu propia cancha y gestionarla desde un dashboard de administración.
             </p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
+              <small><b id="cliente">CLIENTE:</b></small>
               <small>Soy Henry</small>
-              <small><b>FECHA:</b></small>
+              <small><b id="fecha">FECHA:</b></small>
               <small>07/11/2023</small>
-              <small><b>TIPO:</b></small>
+              <small><b id="tipo">TIPO:</b></small>
               <small>Pagina Web</small>
-              <small><b>ENLACE:</b></small>
+              <small><b id="enlace">ENLACE:</b></small>
               <small
                 ><a
                   href="https://cancha-ya.vercel.app/"
