@@ -665,7 +665,7 @@
     <footer class="footer">
       <small
         >Site designed by 
-        <a id="limk"
+        <a 
           href="https://www.linkedin.com/in/emiliano-gabriel-costabile/"
           target="_blank"
           rel="noopener"
@@ -715,16 +715,16 @@
           document.getElementById('acerca').innerText = 'About';
           document.getElementById('contacto').innerText = 'Contact';
           document.getElementById('serv').innerText = 'Aptitudes';
-          document.getElementById('videogames2').innerText = 'Videogames is a project that allows you to learn about and explore information about different video games and even add new ones. With this project, you can filter games by their genre or rating, also search for them by name and sort them alphabetically. Additionally, you can see the details of each game, such as its description, the year it was created, the platforms on which it can be played, and its photo.';
-          document.getElementById('cancha2').innerText = 'This was the final project that I did with my coursemates at Soy Henry. CanchaYa is a platform that allows you to search, reserve and rate courts for different sports in your city. You can filter the courts by various criteria, pay for your reservations through MercadoPago and leave reviews about your experience. You can also register your own court and manage it from an administration dashboard.';
-          document.getElementById('cliente2').innerText = 'CUSTOMER:';
-          document.getElementById('fecha2').innerText = 'DATE:';
-          document.getElementById('tipo2').innerText = 'TYPE:';
-          document.getElementById('enlace2').innerText = 'LINK:';
-          document.getElementById('mensaje').innerText = 'SEND MESSAGE';
-          document.getElementById('coments').innerText = 'Leave me your comments';
-          document.getElementById('email').innerText = 'Enter your email';
-          document.getElementById('name').innerText = 'Enter your name';
+          document.getElementById('videogames2').innerHTML = 'Videogames is a project that allows you to learn about and explore information about different video games and even add new ones. With this project, you can filter games by their genre or rating, also search for them by name and sort them alphabetically. Additionally, you can see the details of each game, such as its description, the year it was created, the platforms on which it can be played, and its photo.';
+          document.getElementById('cancha2').innerHTML = 'This was the final project that I did with my coursemates at Soy Henry. CanchaYa is a platform that allows you to search, reserve and rate courts for different sports in your city. You can filter the courts by various criteria, pay for your reservations through MercadoPago and leave reviews about your experience. You can also register your own court and manage it from an administration dashboard.';
+          document.getElementById('cliente2').innerHTML = 'CUSTOMER:';
+          document.getElementById('fecha2').innerHTML = 'DATE:';
+          document.getElementById('tipo2').innerHTML = 'TYPE:';
+          document.getElementById('enlace2').innerHTML = 'LINK:';
+          document.getElementById('mensaje').innerHTML = 'SEND MESSAGE';
+          document.getElementById('coments').innerHTML = 'Leave me your comments';
+          document.getElementById('email').innerHTML = 'Enter your email';
+          document.getElementById('name').innerHTML = 'Enter your name';
 
           language = 'en'; // Cambiar al idioma inglés
     } else {
@@ -770,9 +770,9 @@
           document.getElementById('tipo2').innerText = 'TIPO:';
           document.getElementById('enlace2').innerText = 'ENLACE:';
           document.getElementById('mensaje').innerText = 'ENVIAR MENSAJE';
-          document.getElementById('coments').innerText = 'Déjame tus comentarios *';
-          document.getElementById('email').innerText = 'Ingresa tu correo *';
-          document.getElementById('name').innerText = 'Ingresa tu nombre *';
+          document.getElementById('coments').innerHTML = 'Déjame tus comentarios *';
+          document.getElementById('email').innerHTML = 'Ingresa tu correo *';
+          document.getElementById('name').innerHTML = 'Ingresa tu nombre *';
 
           language = 'es'; // Cambiar al idioma español
     }
