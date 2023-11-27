@@ -723,8 +723,7 @@
           'enlace2' : ['LINK:', 'ENLACE:'],
           'mensaje' : ['SEND MESSAGE', 'ENVIAR MENSAJE'],
           'coments' : ['Leave me your comments', 'Déjame tus comentarios *'],
-          'email' : ['Enter your email', 'Ingresa tu correo *'],
-          'name' : [ 'Enter your name', 'Ingresa tu nombre *'],
+          
     };
 
 // Cambia el idioma de cada elemento según la variable 'language'
@@ -737,17 +736,20 @@ language = language === 'es' ? 'en' : 'es';
 var placeholders = {
       'es': {
         'email': 'Ingresa tu correo *',
-        'comments': 'Déjame tus comentarios *'
+        'coments': 'Déjame tus comentarios *',
+        'name' : 'Ingresa tu nombre *'
       },
       'en': {
         'email': 'Enter your email *',
-        'comments': 'Leave me your comments *'
+        'coments': 'Leave me your comments *',
+        'name' : 'Enter your name'
       }
     };
 
     // Actualizar los placeholders de acuerdo al idioma seleccionado
     document.getElementById('email').placeholder = placeholders[language]['email'];
-    document.getElementById('comments').placeholder = placeholders[language]['comments'];
+    document.getElementById('coments').placeholder = placeholders[language]['coments'];
+    document.getElementById('name').placeholder = placeholders[language]['name'];
 });
 </script>
 <!-- //     <script>
