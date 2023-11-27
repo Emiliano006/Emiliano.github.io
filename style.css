@@ -660,6 +660,6 @@ p {
 
 #changeLanguage {
   position: absolute;
-  top: -20px; /* Ajusta la posición hacia arriba */
-  right: 2px; /* Ajusta la posición hacia la derecha */
+  top: -200px; /* Ajusta la posición hacia arriba */
+  right: -20px; /* Ajusta la posición hacia la derecha */
 }
