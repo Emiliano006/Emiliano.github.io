@@ -653,13 +653,3 @@ p {
     grid-column: span 3;
   }
 }
-.hero-image-content {
-  position: absolute; /* Asegura que el posicionamiento relativo funcione para el botón */
-  /* Agrega cualquier otro estilo que desees para el contenedor principal */
-}
-
-#changeLanguage {
-  position: absolute;
-  top: 20px; /* Ajusta la posición hacia arriba */
-  right: 20px; /* Ajusta la posición hacia la derecha */
-}
