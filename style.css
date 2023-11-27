@@ -355,7 +355,7 @@ p {
   background-color: var(--first-color);
   margin: 10px;
 }
-.text-center .text-lg-left .btn{
+.text-center.text-lg-left .btn{
   margin-left: 150px !important;
 }
 
