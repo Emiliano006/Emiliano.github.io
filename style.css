@@ -654,9 +654,9 @@ p {
   }
 }
 .menu button{
-  
-  
+  border: none;
+  text-decoration: none;
   background: none;
   cursor: pointer;
-  top: auto;
+  top: 10px;
 }
