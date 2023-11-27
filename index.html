@@ -750,7 +750,7 @@ var placeholders = {
     document.getElementById('email').placeholder = placeholders[language]['email'];
     document.getElementById('coments').placeholder = placeholders[language]['coments'];
     document.getElementById('name').placeholder = placeholders[language]['name'];
-    var value = {
+    var values = {
       'es': {
         'mensaje' :  'ENVIAR MENSAJE',
       },
@@ -758,7 +758,7 @@ var placeholders = {
         'mensaje' : 'SEND MESSAGE'
       }
     };
-    document.getElementById('sendMessage').value = texts[language]['submitButton'];
+    document.getElementById('mensaje').value = values[language]['mensaje'];
 });
 </script>
 <!-- //     <script>
