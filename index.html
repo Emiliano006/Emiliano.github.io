@@ -98,7 +98,7 @@
           style="--hero-opacity-color: var(--black-alpha-color)"
         >
           <div class="hero-image-content">
-            <button id="changeLanguage">Cambiar a inglés</button>
+            <button id="changeLanguage">Inglés</button>
             <script>
               document.getElementById('changeLanguage').addEventListener('click', function() {
                   // Cambiar el idioma al inglés
@@ -113,10 +113,10 @@
                   document.getElementById('base').innerText = 'Database';
                   document.getElementById('herramientas').innerText = 'Tools';
                   document.getElementById('ofrezco').innerText = 'What do I offer you';
-                  document.getElementById('lenguajes').innerText = 'Programming languages';
-                  document.getElementById('lenguajes').innerText = 'Programming languages';
-                  document.getElementById('lenguajes').innerText = 'Programming languages';
-                  document.getElementById('lenguajes').innerText = 'Programming languages';
+                  document.getElementById('changeLanguage').innerText = 'Spanish';
+                  document.getElementById('Programación').innerText = 'Web programming';
+                  document.getElementById('info').innerText = "I develop sites and applications for <i>Web</i> platforms.I help build your project from start to finish: <i>Frontend</i>, <i>Backend</i> and Database.";
+                  document.getElementById('diseño').innerText = 'Web design';
                 });
     </script>
             <h2
@@ -225,8 +225,8 @@
               d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z"
             />
           </svg>
-          <h3>Programación <i>Web</i></h3>
-          <p>
+          <h3 id="Programación">Programación <i>Web</i></h3>
+          <p id="info">
             Desarrollo sitios y aplicaciones para plataformas <i>Web</i>. Te
             ayudo a construir tu proyecto de principio a fin: <i>Frontend</i>,
             <i>Backend</i> y Base de Datos.
@@ -243,8 +243,8 @@
               d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z"
             />
           </svg>
-          <h3>Diseño <i>Web</i></h3>
-          <p>
+          <h3 id="diseño">Diseño <i>Web</i></h3>
+          <p id="inf">
             Prototipo y maqueto tus diseños estáticos y los convierto en
             increíbles sitios y aplicaciones <i>Web</i> responsivas, óptimas y
             accesibles.
