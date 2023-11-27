@@ -721,8 +721,8 @@
           'fecha2' : ['DATE:', 'FECHA:'],
           'tipo2' : ['TYPE:', 'TIPO:'],
           'enlace2' : ['LINK:', 'ENLACE:'],
-          'mensaje' : ['SEND MESSAGE', 'ENVIAR MENSAJE'],
-          'coments' : ['Leave me your comments', 'Déjame tus comentarios *'],
+          
+          
           
     };
 
@@ -742,7 +742,7 @@ var placeholders = {
       'en': {
         'email': 'Enter your email *',
         'coments': 'Leave me your comments *',
-        'name' : 'Enter your name'
+        'name' : 'Enter your name*'
       }
     };
 
@@ -750,12 +750,12 @@ var placeholders = {
     document.getElementById('email').placeholder = placeholders[language]['email'];
     document.getElementById('coments').placeholder = placeholders[language]['coments'];
     document.getElementById('name').placeholder = placeholders[language]['name'];
-    var texts = {
+    var value = {
       'es': {
-        'submitButton': 'ENVIAR MENSAJE'
+        'mensaje' :  'ENVIAR MENSAJE',
       },
       'en': {
-        'submitButton': 'SEND MESSAGE'
+        'mensaje' : 'SEND MESSAGE'
       }
     };
     document.getElementById('sendMessage').value = texts[language]['submitButton'];
