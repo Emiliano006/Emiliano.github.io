@@ -100,6 +100,7 @@
           <div class="hero-image-content">
             <button id="changeLanguage">Inglés</button>
             <script>
+              var language = 'es'
               document.getElementById('changeLanguage').addEventListener('click', function() {
                   // Cambiar el idioma al inglés
                   document.getElementById('welcome').innerText = 'Welcome to mi portfolio';
@@ -115,8 +116,25 @@
                   document.getElementById('ofrezco').innerText = 'What do I offer you';
                   document.getElementById('changeLanguage').innerText = 'Spanish';
                   document.getElementById('Programación').innerText = 'Web programming';
-                  document.getElementById('info').innerText = "I develop sites and applications for <i>Web</i> platforms.I help build your project from start to finish: <i>Frontend</i>, <i>Backend</i> and Database.";
+                  document.getElementById('info').innerText = "I develop sites and applications for Web platforms.I help build your project from start to finish: Frontend, Backend and Database.";
                   document.getElementById('diseño').innerText = 'Web design';
+                  document.getElementById('inf').innerText = 'I prototype and mock up your static designs and turn them into incredible responsive, optimal and accessible Web sites and applications.';
+                  document.getElementById('web').innerText = 'Web Performance Optimization, I make your sites and Web applications improve their loading and response times.';
+                  document.getElementById('seo').innerText = 'Search Engine Optimization, I optimize your sites and Web applications so that they improve their position in search engines organically.';
+                  document.getElementById('smo').innerText = 'Social Media Optimization and Content Marketing, I help you choose the correct digital channels to reach your ideal audience.';
+                  document.getElementById('inff').innerText = "¿Don't you have a domain and web hosting for your project? Don't worry about those technical things, I'll take care of them.";
+                  document.getElementById('project').innerText = 'My projects';
+                  document.getElementById('cancha').innerText = 'This was the final project that I did with my coursemates at Soy Henry. CanchaYa is a platform that allows you to search, reserve and rate courts for different sports in your city. You can filter the courts by various criteria, pay for your reservations through MercadoPago and leave reviews about your experience. You can also register your own court and manage it from an administration dashboard.';
+                  document.getElementById('videogames').innerText = 'Videogames is a project that allows you to learn about and explore information about different video games and even add new ones. With this project, you can filter games by their genre or rating, also search for them by name and sort them alphabetically. Additionally, you can see the details of each game, such as its description, the year it was created, the platforms on which it can be played, and its photo.';
+                  document.getElementById('cliente').innerText = 'CUSTOMER';
+                  document.getElementById('fecha').innerText = 'DATE';
+                  document.getElementById('tipo').innerText = 'TYPE';
+                  document.getElementById('enlace').innerText = 'LINK';
+                  document.getElementById('interesado').innerText = 'Interested';
+                  document.getElementById('ubi').innerText = 'LOCATION';
+                  document.getElementById('cel').innerText = 'PHONE';
+                  document.getElementById('gracias').innerText = 'Thank you so much! For your comments';
+                  document.getElementById('site').innerText = 'Site designed by';
                 });
     </script>
             <h2
@@ -267,7 +285,7 @@
             <circle cx="17.657" cy="17.658" r="2" />
           </svg>
           <h3><i>WPO</i></h3>
-          <p>
+          <p id="web">
             <i>Web Performance Optimization</i>, hago que tus sitios y
             aplicaciones <i>Web</i> mejoren su tiempo de carga y respuesta.
           </p>
@@ -287,7 +305,7 @@
             />
           </svg>
           <h3><i>SEO</i></h3>
-          <p>
+          <p id="seo">
             <i>Search Engine Optimization</i>, optimizo tus sitios y
             aplicaciones <i>Web</i> para que mejoren su posición en los
             buscadores orgánicamente.
@@ -305,7 +323,7 @@
             />
           </svg>
           <h3><i>SMO</i></h3>
-          <p>
+          <p id="smo">
             <i>Social Media Optimization</i> y <i>Marketing</i> de Contenidos,
             te ayudo a elegir los canales digitales correctos para llegar tu
             audiencia ideal.
@@ -330,7 +348,7 @@
             />
           </svg>
           <h3><i>Web Hosting</i></h3>
-          <p>
+          <p id="inff">
             ¿No cuentas con dominio y hospedaje <i>web</i> para tu proyecto? No
             te preocupes de esas cosas técnicas me encargo yo.
           </p>
@@ -340,13 +358,13 @@
 
     <section id="portafolio" class="portfolio section">
       <div class="container">
-        <h2 class="section-title">Mis Trabajos</h2>
+        <h2 class="section-title" id="project">Mis Trabajos</h2>
         <a href="#trabajo-1" class="portfolio-card">
           <img src="assets/Opera Captura de pantalla_2023-11-26_025606_cancha-ya.vercel.app.png" alt="CanchaYa" />
           <aside class="portfolio-card-info">
             <div>
               <h3 class="portfolio-card-h3">CanchaYa</h3>
-              <p>
+              <p id="cancha">
                 Este fue el proyecto final que realice junto a mis compañeros de
               curso en soy henry, CanchaYa es una plataforma que te permite buscar, 
               reservar y calificar canchas de diferentes deportes en tu ciudad. 
@@ -362,7 +380,7 @@
           <aside class="portfolio-card-info">
             <div>
               <h3 class="portfolio-card-h3">Game World</h3>
-              <p>
+              <p id="videogames">
                 Videogames es un proyecto que te permite conocer y explorar la 
                 información de distintos videojuegos e incluso agregar nuevos. Con 
                 este proyecto, puedes filtrar los juegos por su genero o su raiting,
@@ -396,7 +414,7 @@
           <img src="assets/Opera Captura de pantalla_2023-11-26_025606_cancha-ya.vercel.app.png" alt="CanchaYa" />
           <div class="portfolio-info">
             <h3>CanchaYa</h3>
-            <p>
+            <p id="cancha">
               Este fue el proyecto final que realice junto a mis compañeros de
               curso en soy henry, CanchaYa es una plataforma que te permite buscar, 
               reservar y calificar canchas de diferentes deportes en tu ciudad. 
@@ -443,7 +461,7 @@
           <img src="assets/Opera Captura de pantalla_2023-11-26_025332_game-world-theta.vercel.app.png" alt="Game World" />
           <div class="portfolio-info">
             <h3>Game World</h3>
-            <p>
+            <p id="videogames">
               Videogames es un proyecto que te permite conocer y explorar la 
               información de distintos videojuegos e incluso agregar nuevos. Con 
               este proyecto, puedes filtrar los juegos por su genero o su raiting,
@@ -452,13 +470,13 @@
               que fueron creados, las plataformas en las que pueden jugarse y su foto. 
             </p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
+              <small><b id="cliente">CLIENTE:</b></small>
               <small>Soy Henry</small>
-              <small><b>FECHA:</b></small>
+              <small><b id="fecha">FECHA:</b></small>
               <small>26/08/2023</small>
-              <small><b>TIPO:</b></small>
+              <small><b id="tipo">TIPO:</b></small>
               <small>Pagina Web</small>
-              <small><b>ENLACE:</b></small>
+              <small><b id="enlace">ENLACE:</b></small>
               <small
                 ><a
                   href="https://game-world-theta.vercel.app"
@@ -474,7 +492,7 @@
     </article>
     <section id="contacto" class="contact section">
       <div class="container">
-        <h2 class="section-title">¿Interesado?</h2>
+        <h2 class="section-title" id="interesado">¿Interesado?</h2>
         <article class="contact-cards">
           <aside class="contact-card box-shadow-1">
             <svg
@@ -489,7 +507,7 @@
                 fill="#D90062"
               />
             </svg>
-            <h5>UBICACIÓN</h5>
+            <h5 id="ubi">UBICACIÓN</h5>
             <small>SANTA FE, SANTA FE, ARGENTINA</small>
           </aside>
           <aside class="contact-card box-shadow-1">
@@ -505,7 +523,7 @@
                 fill="#D90062"
               />
             </svg>
-            <h5>TELÉFONO</h5>
+            <h5 id="cel">TELÉFONO</h5>
             <small><a href="tel:54325145614">(+54)3425145614</a></small>
           </aside>
           <aside class="contact-card box-shadow-1">
@@ -629,7 +647,7 @@
         <article id="gracias" class="modal">
           <div class="modal-content">
             <article class="contact-form-response">
-              <h3>¡Muchas Gracias!<br />Por tus comentarios</h3>
+              <h3 id="gracias">¡Muchas Gracias!<br />Por tus comentarios</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -652,7 +670,7 @@
 
     <footer class="footer">
       <small
-        >Sitio diseñado por
+        id="site">Sitio diseñado por
         <a
           href="https://www.linkedin.com/in/emiliano-gabriel-costabile/"
           target="_blank"
