@@ -653,9 +653,13 @@ p {
     grid-column: span 3;
   }
 }
-#changeLanguage svg {
-  border-radius: none;
-  position: absolute; 
-  top: 20px; 
-  right: 20px;
+.hero-image-content {
+  position: relative; /* Asegura que el posicionamiento relativo funcione para el botón */
+  /* Agrega cualquier otro estilo que desees para el contenedor principal */
+}
+
+#changeLanguage {
+  position: absolute;
+  top: 20px; /* Ajusta la posición hacia arriba */
+  right: 20px; /* Ajusta la posición hacia la derecha */
 }
