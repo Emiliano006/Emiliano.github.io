@@ -107,8 +107,10 @@
               <use xlink:href="#s5" x="2470"/>
               </g>
               </svg></button>
+              
               <script>
                 var language = 'es' // Inicialmente, el idioma es español
+
                 document.getElementById('changeLanguage').addEventListener('click', function() {
                     // Cambiar entre español e inglés
                     if (language === 'es') {
@@ -159,9 +161,10 @@
                     document.getElementById('coments').innerText = 'Leave me your comments';
                     document.getElementById('email').innerText = 'Enter your email';
                     document.getElementById('name').innerText = 'Enter your name';
+
                     language = 'en'; // Cambiar al idioma inglés
               } else {
-                document.getElementById('welcome').innerHTML = 'Bienvenidos<br />a mi portfolio';
+                    document.getElementById('welcome').innerHTML = 'Bienvenidos<br />a mi portfolio';
                     document.getElementById('contact').innerText = 'CONTÁCTAME';
                     document.getElementById('descripción').innerText = "Full Stack Web Developer con background en Licenciatura en Nutrición, experimentado en trabajo colaborativo y análisis de código. Habilidades en resolución de problemas y promoción de la colaboración grupal. Apasionado por el baloncesto y entusiasta del trabajo en equipo.";
                     document.getElementById('habilidades').innerText = 'Mis Habilidades';
@@ -208,6 +211,7 @@
                     document.getElementById('coments').innerText = 'Déjame tus comentarios *';
                     document.getElementById('email').innerText = 'Ingresa tu correo *';
                     document.getElementById('name').innerText = 'Ingresa tu nombre *';
+
                     language = 'es'; // Cambiar al idioma español
               }
                   });
