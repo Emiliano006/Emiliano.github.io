@@ -653,3 +653,6 @@ p {
     grid-column: span 3;
   }
 }
+.menu button{
+  text-decoration: none;
+}
