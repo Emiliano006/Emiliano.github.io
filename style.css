@@ -654,8 +654,6 @@ p {
   }
 }
 #changeLanguage svg {
-  width: 20%;
-  height: 20%;
   border-radius: none;
   position: absolute; 
   top: 20px; 
