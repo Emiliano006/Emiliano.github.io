@@ -660,3 +660,7 @@ p {
   cursor: pointer;
   top: 20%;
 }
+body.dark-mode {
+  background-color: #333; 
+  color: #fff; 
+}
