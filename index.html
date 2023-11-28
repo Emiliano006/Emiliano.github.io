@@ -107,7 +107,7 @@
               <use xlink:href="#s5" x="2470"/>
               </g>
               </svg></button>
-              <button id="dark-mode-toggle"><img src="light-mode-icon.jpg" alt="Modo claro" id="mode-icon" /></button>
+              <button id="dark-mode-toggle"><img src="light-mode-icon.png" alt="Modo claro" id="mode-icon" /></button>
               
         </nav>
       </section>
@@ -765,10 +765,10 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
   
   // Cambiar la imagen según el modo actual
   if (document.body.classList.contains('dark-mode')) {
-    modeIcon.src = 'dark-mode-icon.jpg'; // Ruta de la imagen para modo oscuro
+    modeIcon.src = 'dark-mode-icon.png'; // Ruta de la imagen para modo oscuro
     modeIcon.alt = 'Modo oscuro'; // Texto alternativo para accesibilidad
   } else {
-    modeIcon.src = 'light-mode-icon.jpg'; // Ruta de la imagen para modo claro
+    modeIcon.src = 'light-mode-icon.png'; // Ruta de la imagen para modo claro
     modeIcon.alt = 'Modo claro'; // Texto alternativo para accesibilidad
   }
 });
