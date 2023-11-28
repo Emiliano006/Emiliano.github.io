@@ -664,3 +664,14 @@ body.dark-mode {
   background-color: #333; 
   color: #fff; 
 }
+#dark-mode-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para la imagen dentro del botón */
+#mode-icon {
+  width: 30px; /* Ajustar el tamaño de la imagen según sea necesario */
+  height: 30px;
+}
